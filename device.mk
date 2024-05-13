@@ -157,6 +157,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    XiaomiPartsVayu
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-service.xiaomi \
