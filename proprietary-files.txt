@@ -660,7 +660,7 @@ vendor/lib64/libgoodixhwfingerprint.so|ecf0eac38435e53f014c9ccc11c4be92a3c5e0d1
 
 # IMS (system) - from QSSI.11
 system_ext/priv-app/ims/ims.apk|382b9c5942cb9420a2032912289ab855fb206885
-system_ext/lib64/lib-imsvideocodec.so|73f6d64f37a0c5e0fca661ef1ff0b5be17e2f969
+system_ext/lib64/lib-imsvideocodec.so|73f6d64f37a0c5e0fca661ef1ff0b5be17e2f969|dd29c9fb2f5da28f37a9f4d91622d77034c9afea
 system_ext/lib64/lib-imsvt.so|66f0d6f0c82b694005aa77a794a27a25fa18cc62
 system_ext/lib64/lib-imsvtextutils.so|50a092eb7b490f4307bddb3d5a4c595b458bc503
 system_ext/lib64/lib-imsvtutils.so|01410f799542bedc47a9795961a681a4afeb8ff1
