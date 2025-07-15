@@ -432,13 +432,13 @@ vendor/lib64/libhdr_tm.so|a222a7d838735c5ce73f06d4096fea3ca19611c8
 vendor/lib64/libdisplayqos.so|5548732c916e629f18f45ce257ce843b679a136a
 vendor/lib64/libdpps.so|a9d4e3806a433b9dfc7cb49556efa9fc65389e75
 vendor/lib64/libqseed3.so|7f2a659fb9acd84d79c11dbd6901b816d5d1214f
+vendor/lib64/libsdedrm.so|7cf5f4e7e4dacae88e317d3397fdf25dabe45b65
 vendor/lib64/libsdm-color.so|d0984c33dcbf84940676917e0c3584b0ccfeaf03
 vendor/lib64/libsdm-colormgr-algo.so|15f696a4575868e528360896f1e0098d531899c0
 vendor/lib64/libsdm-diag.so|98c8e8a3a56bc0091f56714d569f03066f68fdea
 vendor/lib64/libsdm-disp-vndapis.so|60da199073d2b0881bf075190a644b332503f39c
 vendor/lib64/libsdmextension.so|e10d29f29b7a53b75369e58e8a165b2b86609f26
 vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
-vendor/lib64/libsdedrm.so|7cf5f4e7e4dacae88e317d3397fdf25dabe45b65
 
 # Display calibration data
 vendor/etc/hdr_config.cfg
