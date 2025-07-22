@@ -74,6 +74,10 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libgui_shim.so'),
     'vendor/lib64/mediadrm/libwvdrmengine.so': blob_fixup()
         .add_needed('libcrypto_shim.so'),
+    ('vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc', 'vendor/etc/init/vendor.qti.media.c2@1.0-service.rc'): blob_fixup()
+        .regex_replace(r'writepid.*', 'task_profiles ProcessCapacityHigh HighPerformance'),
+    'vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc': blob_fixup()
+        .regex_replace(r'writepid.*', 'task_profiles NNApiHALPerformance'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
