@@ -502,12 +502,12 @@ vendor/lib64/vendor.qti.hardware.qseecom@1.0.so|1b4c92c07ed5ba3f053e10a11f2bc123
 system_ext/lib64/fm_helium.so|e551c92ba49f250d8404c0a7b00eb6f3e0698195
 system_ext/lib64/libfm-hci.so|52b77c5f135d251aedb8cc509ce22bf50d7fcccf
 system_ext/lib64/vendor.qti.hardware.fm@1.0.so|4ba97fa02808eb1d125c9b7ccd9d0a92bb49ab70
-vendor/lib/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor|c036fbe16575a800994792431d10f6d1173cea26
-vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor|f6e23f902b7e15232b20af55161a24da93ffe25f
 vendor/bin/fm_qsoc_patches|2b6f2cf4c744eea232eedb4a6e4ea5ebbbac8efe
 vendor/etc/init/init.qti.fm.rc|4f5459058debbea76991e69f8522126f6655fd3b
 vendor/etc/init.qti.fm.sh|0ac820dd85ebdf5fa73b5e971f6787ff35ceb65d
+vendor/lib/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor|c036fbe16575a800994792431d10f6d1173cea26
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|f2e143c684cd9f31372df63b44c163744b2ca0b7
+vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor|f6e23f902b7e15232b20af55161a24da93ffe25f
 
 # Gatekeeper - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|2e33e885b92e413440511049025497945d6b8484
@@ -583,6 +583,7 @@ vendor/firmware/ipa_uc.mdt|e2364ef18311d7aba6fc533641da9ffd9b8433ed
 
 # GNSS - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/app/CACertService/CACertService.apk|b1072f129d588b5c5aefa8824b6d531586a26755
+vendor/bin/hw/android.hardware.gnss@2.1-service-qti|ec8dd6ddeecb9539899ec89a5950d422b6ece916
 vendor/bin/loc_launcher|be9f321e7c03e038749239ae4accd3db00949e2c
 vendor/bin/lowi-server|d94ebcc5499e0624f941bbf3a7aa259891513cd0
 vendor/bin/mlid|45e6e27038eb35f8fe7a61b9074252e4147fcf33
@@ -590,21 +591,28 @@ vendor/bin/slim_daemon|2eef3832875b39a0095b6147334a085f4e3a0697
 vendor/bin/xtra-daemon|36df53948c13655ff5ff5b76882f28f9a4d039a8
 vendor/bin/xtwifi-client|69378f73eeb61789822de5aed4c268e3661c81ee
 vendor/bin/xtwifi-inet-agent|2453d2776049b9ef2b29f6abe1256359f321a088
+vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc|d3844699c845ce5de4c8b50548a2095f92dd0235
+vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml|1c344aacaa6d17a1585ba58b2e6d438dcfe31fad
+vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
 vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
+vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so|a008a2d6a8446667aad56c7661cb47d09c8b323d
+vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so|4f7dc0ed3f65a0d79ffdd94fa2e5ecd2ecbdd21f
 vendor/lib64/libaoa.so|5b7793841cff9665f8a2fcbf47348598b2792eea
+vendor/lib64/libasn1cper.so|15236de74b03454838cb69fb5817c04dd9984efa
+vendor/lib64/libasn1crt.so|6780d64f14411f0bb1e7cc4568651bfd7ea3badf
+vendor/lib64/libasn1crtx.so|a356949a94f173356bfec186b2f4f0bc38a1eb04
+vendor/lib64/libbatching.so|3b1ed219cce238d8db0ceeaab5a6ee6a3285ff19
 vendor/lib64/libcacertclient.so|69ae73b9be13507ff39398ac5813ad709b8b7c32
 vendor/lib64/libdataitems.so|ac2c6975b584bdf745d09b15aeb3fd3445ab1b71
 vendor/lib64/libgdtap.so|ef93e73de2c5df0f486805e3a2777fd68f12c029
+vendor/lib64/libgeofencing.so|ef477940af8991f4d672bd5c3c679d1b6c2a3b38
+vendor/lib64/libgnss.so|148e0088e7a7bad8e9e7462978269e5345d5be07
+vendor/lib64/libgnsspps.so|0c5104f4d964b0aaaf283fdb27f32461b76922c9
 vendor/lib64/libgps.utils.so|217bda3975df185f095467150605791c59af3805
 vendor/lib64/libizat_client_api.so|5e9998cbcf7d220d5b3080ed1ba352d3656e0ecf
 vendor/lib64/libizat_core.so|cdb3bf89857e2630b49085d33dcae4675d3700d0
 vendor/lib64/libjnihelper.so|ae2919dbdbfa489ebeb584674663e908c4cfb9a5
-vendor/lib64/libasn1cper.so|15236de74b03454838cb69fb5817c04dd9984efa
-vendor/lib64/libasn1crt.so|6780d64f14411f0bb1e7cc4568651bfd7ea3badf
-vendor/lib64/libasn1crtx.so|a356949a94f173356bfec186b2f4f0bc38a1eb04
-vendor/lib64/libxtwifi_server_protocol.so|c26327db373c9df8e19c548f9f7d87789654f874
-vendor/lib64/libxtwifi_server_protocol_uri_v3.so|7fdac704f7c923b09dd3b658e6699c4ef2452cb8
 vendor/lib64/liblbs_core.so|15191704136bd0b4258cb46be2c17fd9dec15df2
 vendor/lib64/libloc_api_v02.so|9af95fb5c5d90adda889a31cf78a6bf1ba1c1fc6
 vendor/lib64/libloc_core.so|0d0fde0b6580998fe224ac795a64aeb4f9ceef59
@@ -619,25 +627,17 @@ vendor/lib64/libqcc_file_agent.so|cd70ce305d5036a027060aa989b0dcbcfab8edb6
 vendor/lib64/libqdma_file_agent.so|061880c4cd706af3df2bf728bf9d89d2efc83ca2
 vendor/lib64/libslimclient.so|c8733ff610533213c008ea8c415f363ad45d5fc4
 vendor/lib64/libxtadapter.so|76e5e59ea8b54fd1110564467ec7677f8df6d1ca
+vendor/lib64/libxtwifi_server_protocol.so|c26327db373c9df8e19c548f9f7d87789654f874
+vendor/lib64/libxtwifi_server_protocol_uri_v3.so|7fdac704f7c923b09dd3b658e6699c4ef2452cb8
 vendor/lib64/vendor.qti.gnss@1.0.so|5cc0d0c8e7a8083f5892eb303ab1e6d4c9d66639
 vendor/lib64/vendor.qti.gnss@1.1.so|9a516f4b1b55798f0ec1ebead0c653ad65546517
 vendor/lib64/vendor.qti.gnss@1.2.so|1266128a166aed91804aebc1513524eb09424f64
 vendor/lib64/vendor.qti.gnss@2.0.so|8dc78f86e141c05f5b404cb3236910896c10d941
 vendor/lib64/vendor.qti.gnss@2.1.so|81142c88b15688a671bd372f013dfb2e77d1998d
 vendor/lib64/vendor.qti.gnss@3.0.so|1c0b41eddcc4789e1ea842be02d511afad123a8e
+vendor/lib64/vendor.qti.gnss@4.0-service.so|d20a0fd214eb4f7aa2d4b2c2cd14ea2b120a49f5
 vendor/lib64/vendor.qti.gnss@4.0.so|e38ae43982dc62bf48193a6c3eb2ae385adb37aa
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so|1633c31212d1ea9338b79ebfc2476f83424f36ee
-vendor/bin/hw/android.hardware.gnss@2.1-service-qti|ec8dd6ddeecb9539899ec89a5950d422b6ece916
-vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc|d3844699c845ce5de4c8b50548a2095f92dd0235
-vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml|1c344aacaa6d17a1585ba58b2e6d438dcfe31fad
-vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
-vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so|a008a2d6a8446667aad56c7661cb47d09c8b323d
-vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so|4f7dc0ed3f65a0d79ffdd94fa2e5ecd2ecbdd21f
-vendor/lib64/libbatching.so|3b1ed219cce238d8db0ceeaab5a6ee6a3285ff19
-vendor/lib64/libgeofencing.so|ef477940af8991f4d672bd5c3c679d1b6c2a3b38
-vendor/lib64/libgnss.so|148e0088e7a7bad8e9e7462978269e5345d5be07
-vendor/lib64/libgnsspps.so|0c5104f4d964b0aaaf283fdb27f32461b76922c9
-vendor/lib64/vendor.qti.gnss@4.0-service.so|d20a0fd214eb4f7aa2d4b2c2cd14ea2b120a49f5
 
 # GNSS configs - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/etc/apdr.conf|52c9b4265e55c87ddf07c9b60817b3c09420712a
@@ -654,7 +654,6 @@ vendor/lib64/libgf_hal.so|ab1dd038fe66f7be96f5153d5fa636026141e129
 vendor/lib64/libgoodixhwfingerprint.so|ecf0eac38435e53f014c9ccc11c4be92a3c5e0d1
 
 # IMS (system) - from QSSI.11
-system_ext/priv-app/ims/ims.apk|382b9c5942cb9420a2032912289ab855fb206885
 system_ext/lib64/lib-imsvideocodec.so|73f6d64f37a0c5e0fca661ef1ff0b5be17e2f969|dd29c9fb2f5da28f37a9f4d91622d77034c9afea
 system_ext/lib64/lib-imsvt.so|66f0d6f0c82b694005aa77a794a27a25fa18cc62
 system_ext/lib64/lib-imsvtextutils.so|50a092eb7b490f4307bddb3d5a4c595b458bc503
@@ -663,6 +662,7 @@ system_ext/lib64/libdiag_system.so|22fb08478936c1520d71880c42650501344b8f27
 system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so|140dba66979472050d044958f2aaed537d18cdc2
 system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so|d06732d17342e445477ba508ae575263dc2096cb
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|34da5e45ae4817ccff75c6b8d1d0c125ebd253ed
+system_ext/priv-app/ims/ims.apk|382b9c5942cb9420a2032912289ab855fb206885
 
 # IMS (vendor) - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/bin/ims_rtp_daemon|7cd0297294c08becd429698defc6c4a603a3e0e3
@@ -682,7 +682,6 @@ vendor/lib64/com.qualcomm.qti.uceservice@2.0.so|45c69806bb6041451a50b38d63231a7f
 vendor/lib64/com.qualcomm.qti.uceservice@2.1.so|271bc984ab857afafaa00cfb37530d51fef51df0
 vendor/lib64/com.qualcomm.qti.uceservice@2.2.so|a550be95337ed6e56f6ed7374f9f97b1ae5f4085
 vendor/lib64/com.qualcomm.qti.uceservice@2.3.so|e3fd16a1a26a94a25a4ecf604557c7626a3d02f3
-vendor/lib64/vendor.qti.ims.factory@1.1.so|b4c803a2d5f3bc7a1de93957d163405168308db4
 vendor/lib64/lib-imscmservice.so|e3559e804359dd90cda664e2fc415a1d2f42d29b
 vendor/lib64/lib-imsdpl.so|714eed21c9bfb43b1e833f9535a4f13f76bc5227
 vendor/lib64/lib-imsqimf.so|10ffc4446e54d107352930a9f8eb61c529a99f3d
@@ -707,6 +706,7 @@ vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so|ffe8a8d579da1bc14465cd2f425ad3
 vendor/lib64/vendor.qti.ims.callcapability@1.0.so|40bea84fa6fcc19591f7fe115962cdf7301e4970
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so|d65de10f8e1ceddd1e6c9c3f2bd210ccb2f04750
 vendor/lib64/vendor.qti.ims.factory@1.0.so|21c91c2aea181c6bb0f66790fd82944dcf117a6d
+vendor/lib64/vendor.qti.ims.factory@1.1.so|b4c803a2d5f3bc7a1de93957d163405168308db4
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|94c1552fd129d24f454843d5174fcbd4524b5992
 vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so|91521d031060612dbf53d4a6437eba56780c768a
 vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so|bd0db76d555c51971dcfcce62d981f987af32811
