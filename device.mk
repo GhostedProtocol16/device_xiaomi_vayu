@@ -327,13 +327,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi
 
-# Telephony
-PRODUCT_PACKAGES += \
-    xiaomi-telephony-stub
-
-PRODUCT_BOOT_JARS += \
-    xiaomi-telephony-stub
-
 # UFFD GC
 PRODUCT_ENABLE_UFFD_GC := true
 
