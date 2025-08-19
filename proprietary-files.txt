@@ -653,16 +653,19 @@ vendor/lib64/libgf_ca.so|ee0da92b23d1875a04fd4b6c330000300375fe07
 vendor/lib64/libgf_hal.so|ab1dd038fe66f7be96f5153d5fa636026141e129
 vendor/lib64/libgoodixhwfingerprint.so|ecf0eac38435e53f014c9ccc11c4be92a3c5e0d1
 
-# IMS (system) - from QSSI.11
-system_ext/lib64/lib-imsvideocodec.so|73f6d64f37a0c5e0fca661ef1ff0b5be17e2f969|dd29c9fb2f5da28f37a9f4d91622d77034c9afea
-system_ext/lib64/lib-imsvt.so|66f0d6f0c82b694005aa77a794a27a25fa18cc62
-system_ext/lib64/lib-imsvtextutils.so|50a092eb7b490f4307bddb3d5a4c595b458bc503
-system_ext/lib64/lib-imsvtutils.so|01410f799542bedc47a9795961a681a4afeb8ff1
-system_ext/lib64/libdiag_system.so|22fb08478936c1520d71880c42650501344b8f27
-system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so|140dba66979472050d044958f2aaed537d18cdc2
-system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so|d06732d17342e445477ba508ae575263dc2096cb
-system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|34da5e45ae4817ccff75c6b8d1d0c125ebd253ed
-system_ext/priv-app/ims/ims.apk|382b9c5942cb9420a2032912289ab855fb206885
+# IMS (system) - from LA.QSSI.15.0.r1-16100-qssi.0
+system/lib64/vendor.qti.diaghal-V1-ndk.so|ac3381b74861e15a8fb2842dd8d929c97a5f0fa1
+system_ext/lib64/lib-imsvideocodec.so|5de2ce5a0cd2de94a7861f03d07411aec91ab738
+system_ext/lib64/lib-imsvt.so|8c89327d563e7769997f5d0e3748130c103dc4b9
+system_ext/lib64/lib-imsvtextutils.so|acce4410add2b5088adab8f7b4e37e36e0c09105
+system_ext/lib64/lib-imsvtutils.so|8a1e06e3edf157b3cba2e608daf70ff0afa823d4
+system_ext/lib64/libdiag_system.so|3bf9bcd950b540ddd10dd6b3ff14af328eeb449d
+system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so|0b61c9104edbcf3284daae09b253b2acbed65ad6
+system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so|7616e2b6a8cb3dd2c7c594eed1b16417a1257125
+system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so|c27f4e77d677a3e8d1c1c91ca1b40958dfb7f9d6
+system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|961321653e924726bd01af6bfbb33c6740bc66af
+system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|33008343e8ac15821278faecc1c234e8bea3fe2d
+system_ext/priv-app/ims/ims.apk|6d3fa88eb5637eba8ff7c9ddc4a41a0b46eb2e03
 
 # IMS (vendor) - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/bin/ims_rtp_daemon|7cd0297294c08becd429698defc6c4a603a3e0e3
