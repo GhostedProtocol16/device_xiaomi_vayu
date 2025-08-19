@@ -667,10 +667,10 @@ system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|961321653e924726bd01af6bfbb33c6
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|33008343e8ac15821278faecc1c234e8bea3fe2d
 system_ext/priv-app/ims/ims.apk|6d3fa88eb5637eba8ff7c9ddc4a41a0b46eb2e03
 
-# IMS (vendor) - from LA.UM.9.1.r1-12900-SMxxx0.0
-vendor/bin/ims_rtp_daemon|7cd0297294c08becd429698defc6c4a603a3e0e3
-vendor/bin/imsdatadaemon|a181601efe9e8b95fabd79e46fba30beaf98e4a4
-vendor/bin/imsqmidaemon|7a1cd7e31cc835709ff7d7282e6f1e6f5baa689d
+# IMS (vendor) - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
+vendor/bin/ims_rtp_daemon|514b4f3a8483c21526d98634aaf8f01e3a59328a
+vendor/bin/imsdatadaemon|41a10f6f2431a8b2acc29a539f6007aadf43ac26
+vendor/bin/imsqmidaemon|01cf9da152d3d816b1b2e8ac425cb6e5942bd6b7
 vendor/bin/imsrcsd|bf29aac14856f29268c01599e5f6c7c6ae520685
 vendor/etc/init/ims_rtp_daemon.rc|06510e936890f51aeb76f2cf3ed5dbe45e67ac20
 vendor/etc/init/imsdatadaemon.rc|29face37c174aebcd1358f7d7ad0bd4baf83063b
@@ -686,16 +686,16 @@ vendor/lib64/com.qualcomm.qti.uceservice@2.1.so|271bc984ab857afafaa00cfb37530d51
 vendor/lib64/com.qualcomm.qti.uceservice@2.2.so|a550be95337ed6e56f6ed7374f9f97b1ae5f4085
 vendor/lib64/com.qualcomm.qti.uceservice@2.3.so|e3fd16a1a26a94a25a4ecf604557c7626a3d02f3
 vendor/lib64/lib-imscmservice.so|e3559e804359dd90cda664e2fc415a1d2f42d29b
-vendor/lib64/lib-imsdpl.so|714eed21c9bfb43b1e833f9535a4f13f76bc5227
+vendor/lib64/lib-imsdpl.so|68b3095ed221b3b68a6a123b5aec0f2d75bde2f7
 vendor/lib64/lib-imsqimf.so|10ffc4446e54d107352930a9f8eb61c529a99f3d
-vendor/lib64/lib-imsrcs-v2.so|2540323ae0e0b464a5bd0919bc661ab0ecd39e11
-vendor/lib64/lib-imsrcsbaseimpl.so|1ea676f264f9c0c53aefb1f3cd3e94cc6c56a55a
+vendor/lib64/lib-imsrcs-v2.so|2b3329a3d0970f33a0abeb1a4062180fe5fbd5c1
+vendor/lib64/lib-imsrcsbaseimpl.so|faf9c5473a03096227c6fec560b1dd2dd5996735
 vendor/lib64/lib-imsvtcore.so|dfcab407085c841b08d26586a3588aa97760b625
 vendor/lib64/lib-imsxml.so|b6c0d3e2613448e651f55438a461091da0934ec8
-vendor/lib64/lib-rcsconfig.so|1f5835503371c6a7ae86e920b2aa50c7e3bd77ac
-vendor/lib64/lib-rtpcommon.so|7f93e15152c17e875db49a46926a3f3dd4b63cbf
-vendor/lib64/lib-rtpcore.so|83c81e5863b1e3aaa218cb157eb3342bf9888dc2
-vendor/lib64/lib-rtpsl.so|5b666bdb137ffb51fc39151858259879b59cccfc
+vendor/lib64/lib-rcsconfig.so|0689770bb9bbea45499b0b6b748a373378611dbd
+vendor/lib64/lib-rtpcommon.so|7ebed6c8b3f9855ea4c8bb1a241ff59ceec39738
+vendor/lib64/lib-rtpcore.so|7b1b86c1d6239300a7b588e81af294a746aa0245
+vendor/lib64/lib-rtpsl.so|e81884dae69f0e2b674652d143cf7fefdd157720
 vendor/lib64/lib-siputility.so|7f16208e32d761ca09f4afffa63311d7d96275cb
 vendor/lib64/lib-uceservice.so|f19e6a0f2a788acc5b887fdfcf4652a5742911ca
 vendor/lib64/librcc.so|acf6cf877771e4e6ac8ec32031d7b2586d7bf082
