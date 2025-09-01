@@ -19,5 +19,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
      <!-- Maintainer strings -->
      <string name="maintainer_name" translatable="false">Grepfox</string>
-     <string name="maintainer_telegram" translatable="false">>https://t.me/grepfox</string>
+     <string name="maintainer_telegram" translatable="false">https://t.me/grepfox</string>
 </resources>

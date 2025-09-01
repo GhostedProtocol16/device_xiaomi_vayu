@@ -240,7 +240,7 @@ PRODUCT_PACKAGES += \
     ApertureOverlayVayu \
     CarrierConfigOverlayVayu \
     FrameworkResOverlayVayu \
-    YAAPSettingsOverlayDevice \
+    YAAPSettingsOverlayVayu \
     SettingsOverlayVayu \
     DisplayFeaturesVayu \
     SettingsProviderOverlayVayu \
