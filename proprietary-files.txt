@@ -99,6 +99,7 @@ vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b0864744
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|a83e30d60645db71d5fcb57ef1dd708af95ed662
 vendor/lib/libbluetooth_audio_session_qti_2_1.so|b894e2e3768c2f3d6a21fae79a92663822e53450
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|3d133dab1eb6f04f2089b5460ec6870da9783437
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|66547bbe6adc68fa248f8758fbf2d3435cfe8e7d
 vendor/lib64/libbluetooth_audio_session_qti_2_1.so|f298669097abb8b47a24c46e4bf4eae872781299
 vendor/lib64/libbtnv.so|0c74a43550b939b9496b03b3285fa950cf560c48
 vendor/lib64/libsoc_helper.so|a7de8fae284f55adf21ca161155b41d6df9dae56
