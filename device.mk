@@ -204,9 +204,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
 
-# Kernel
-PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
-
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
