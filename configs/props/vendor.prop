@@ -187,6 +187,8 @@ vendor.display.qdcm.mode_combine=1
 drm.service.enabled=true
 
 # Fingerprint
+persist.vendor.fingerprint.type=side
+persist.vendor.fingerprint.sensor_location=1080|945|150|local:4630946480857061761,1080|945|150|local:4630946545580055169
 persist.vendor.qfp=false
 
 # FRP
@@ -217,6 +219,10 @@ debug.stagefright.c2inputsurface=-1
 ro.odm.build.media_performance_class=30
 vendor.media.omx=0
 
+# Netmgr
+persist.vendor.data.iwlan.enable=true
+persist.vendor.data.mode=concurrent
+
 # OTG
 persist.sys.oem.otg_support=true
 
@@ -232,7 +238,6 @@ persist.vendor.qcomsysd.enabled=1
 # Radio
 persist.radio.multisim.config=dsds
 persist.rcs.supported=1
-persist.vendor.data.iwlan.enable=true
 persist.vendor.radio.apm_sim_not_pwdn=1
 persist.vendor.radio.custom_ecc=1
 persist.vendor.radio.data_con_rprt=1
@@ -244,6 +249,7 @@ persist.vendor.radio.force_on_dc=true
 persist.vendor.radio.manual_nw_rej_ct=1
 persist.vendor.radio.procedure_bytes=SKIP
 persist.vendor.radio.rat_on=combine
+persist.vendor.radio.redir_party_num=1
 persist.vendor.radio.sar_sar_sensor=true
 persist.vendor.radio.sib16_support=1
 persist.vendor.radio.usblockant=true
@@ -255,10 +261,6 @@ persist.vendor.sensors.enable.mag_filter=true
 
 # Shutdown
 sys.vendor.shutdown.waittime=500
-
-# Fingerprint
-persist.vendor.fingerprint.type=side
-persist.vendor.fingerprint.sensor_location=1080|945|150|local:4630946480857061761,1080|945|150|local:4630946545580055169
 
 # Thermal
 vendor.sys.thermal.data.path=/data/vendor/thermal/
